@@ -1,7 +1,7 @@
 .table-container{
     position:fixed;
-    top:200px;
-    left: 230px;
+    top:120px;
+    left: 180px;
     background-color: #ffffff;
     height: 100%;
     width: 100%;
@@ -14,7 +14,7 @@
 .table-main-container {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:8px;
     padding: 1rem;
     width: 75%;
     margin-top: 10px;
@@ -22,14 +22,14 @@
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
 }
 
 th, td {
     border: 1px solid rgb(167, 169, 169);
     text-align: left;
     padding: 8px;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 th {
@@ -38,12 +38,12 @@ th {
 
 .text{
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .text1{
     font-family: "Roboto";
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -59,8 +59,8 @@ td {
 
 
 .popup-container{
-    width: 850px;
-    height: 480px;
+    width: 700px;
+    height: 400px;
     background-color: #ffffff;
     margin-left: 70%;
     border-style: solid;
@@ -110,8 +110,8 @@ td {
     background-color: green;
     border-style: none;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-left: 40%;
 }
 
@@ -121,7 +121,7 @@ td {
 }
 
 .previous-container {
-    width: 70%;
+    width: 60%;
 }
 
 .previous-button {
@@ -129,7 +129,17 @@ td {
     height: 30px;
     width: 30px;
     padding: 2px;
+    margin-top: 20px;
 }
+
+.next-button {
+    margin-right: 50px;
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    margin-top: 20px;
+}
+
 
 
 .popup-button {
